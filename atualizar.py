@@ -51,8 +51,4 @@ for i in range(0, len(ids), 10):
     time.sleep(1)
 json.dump({"atualizado": agora, "jogos": out}, open("jogos.json", "w", encoding="utf-8"), ensure_ascii=False)
 print(len(out), "jogos")
- 
 
-
-
-Claude terminou a resposta
